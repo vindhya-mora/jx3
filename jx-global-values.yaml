@@ -1,0 +1,5 @@
+# optional list of image pull secrets to use to pull images
+jx:
+  imagePullSecrets: []
+  # if using a non-openshift registry you can use:
+  # - tekton-container-registry-auth
